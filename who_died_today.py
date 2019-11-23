@@ -12,3 +12,5 @@ extraction = soup.find_all('h5')
 print('Famous people who died on this day:')
 for line in extraction:
     print(line.text)
+
+input('\nPress enter to continue')
